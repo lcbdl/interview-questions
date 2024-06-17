@@ -1,0 +1,10 @@
+name: interview-questions
+title: Interview Q&A
+version: 1.0
+starter_page: index.adoc
+
+asciidoc:
+  attributes:
+
+nav:
+- modules/ROOT/nav.doc
