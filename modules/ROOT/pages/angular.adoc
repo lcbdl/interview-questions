@@ -1,6 +1,16 @@
-= Angular Interview Q&A
+= Angular
 
-== What's the new feature of Angular 17?
+== What's of Angular 15
+
+* Stable Standalone Component API
+* Single file component
+
+== What's of Angular 16
+
+* Angular Signal (Developer preview)
+* Support Tailwind CSS
+
+== What's new of Angular 17?
 
 === New built-in control flow
 
@@ -75,4 +85,10 @@ Inside @for contents, several implicit variables are always available:
   }
 }
 ----
+
+=== Angular Signal
+Basically Angular signal is a special type of variable that holds a value and also provides a notification mechanism to tell other program when the variable changes.
+
+
+
 

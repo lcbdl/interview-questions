@@ -1,10 +1,11 @@
 name: interview-questions
 title: Interview Q&A
-version: 1.0
-starter_page: index.adoc
+version: 1.0.0
+start_page: architecture.adoc
 
 asciidoc:
   attributes:
+    source-language: asciidoc@
 
 nav:
-- modules/ROOT/nav.doc
+- modules/ROOT/nav.adoc
