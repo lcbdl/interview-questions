@@ -138,18 +138,18 @@ def process_payment(request):
 
 Reactive programming is a paradigm that focuses on asynchronous data streams and the propagation of changes. It is well-suited for applications that require high performance, scalability, and responsiveness. Project Reactor, a library for building reactive applications on the JVM, is a key player in this space. It provides two primary types: Mono and Flux. Flux is used for handling sequences of 0 to N items, while Mono handles 0 or 1 item.
 
-=== Key Concepts of Reactive Programming
+=== 1. Key Concepts of Reactive Programming
 
 . Asynchronous Data Streams: Reactive programming deals with data as streams that can emit items asynchronously over time.
 . Event-Driven: Actions are driven by events (data, user inputs, etc.), and the system reacts to these events.
 . Backpressure: A mechanism to handle situations where the producer of data is faster than the consumer, preventing the consumer from being overwhelmed.
 . Non-blocking: Reactive systems avoid blocking operations, enhancing performance and scalability.
 
-=== Project Reactor
+=== 2. Project Reactor
 
 Project Reactor is an implementation of the Reactive Streams specification, providing a powerful and flexible foundation for reactive applications. It offers a rich set of operators to transform, filter, and combine data streams.
 
-=== Flux: Reactive Sequences of Data
+=== 3. Flux: Reactive Sequences of Data
 
 Flux is a reactive type representing a sequence of 0 to N items, potentially infinite. It is a key abstraction in Project Reactor for working with multiple items.
 
@@ -261,7 +261,7 @@ Flux<String> combinedFlux = Flux.just("with", "Project Reactor")
 
 Spring Integration is a module of the Spring Framework that provides a framework for building message-driven applications and systems using well-established enterprise integration patterns. It facilitates the development of event-driven architectures and microservices by enabling the integration of various systems through messaging. This allows for loosely coupled, scalable, and easily maintainable systems.
 
-=== Key Concepts in Spring Integration
+=== 1. Key Concepts in Spring Integration
 
 . Messages: The core abstraction in Spring Integration. A message consists of a payload and headers.
 
@@ -286,7 +286,7 @@ Spring Integration is a module of the Spring Framework that provides a framework
 
 . Gateways: Provide a higher-level abstraction to send and receive messages, acting as entry and exit points for messages in the system.
 
-=== Building Message-Driven Microservices
+=== 2. Building Message-Driven Microservices
 
 Message-driven microservices are designed to communicate through messaging systems, making them highly decoupled and resilient. Spring Integration helps in building such systems by providing support for various messaging patterns and integration with popular message brokers.
 
@@ -379,7 +379,7 @@ public class MessageConsumer {
 }
 ----
 
-=== Building Event-Driven Architectures
+=== 3. Building Event-Driven Architectures
 Event-driven architectures leverage events to trigger changes and communications between microservices. Spring Integration makes it straightforward to build such systems by providing robust support for event handling and processing.
 
 ==== Example: Event-Driven Architecture with Spring Integration and Kafka
