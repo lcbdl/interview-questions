@@ -89,6 +89,12 @@ Inside @for contents, several implicit variables are always available:
 === Angular Signal
 Basically Angular signal is a special type of variable that holds a value and also provides a notification mechanism to tell other program when the variable changes.
 
+* signal() - Create a signal
+* computed() - Create a computed signal from another signal
+* effect() - Create an effect call back when signal value changed
+* input() - Create an input prop 
+* output() - Create an output prop 
+* model() - Create a model signal prop, which is writable
 
 
 

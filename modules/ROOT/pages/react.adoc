@@ -1,1 +1,12 @@
 = React
+
+== 1. What’s the difference between regular function and a react custom hook
+    * It is a stateful function that uses other react built-in hooks (e.g. useState, useCallback etc.) that can wrap around the stateful logic that you wanted to gather in one place and avoid copy and pasting the same logic in multiple components.
+    * With this approach, you can put your logic outside of the component in another function while you are getting the benefit of stateful functionalities of react.
+
+== 1. Explain JavaScript var, let, and const
+    • Global Scope:  All of them can create a global variable or constant if you declare it in a file by out site of any functions.
+    • Function Scope:  All of them can create a function scope by declaring it in site a function
+    • Block Scope:  var can’t declare a block scope variable, but let and const can.
+    • Hoisting:  you can use a variable before declaring it.  Var can, but let.
+    • Re-declaration:  Var can, but let or const.

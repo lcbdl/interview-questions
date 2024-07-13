@@ -6,3 +6,19 @@
     • Block Scope:  var can’t declare a block scope variable, but let and const can.
     • Hoisting:  you can use a variable before declaring it.  Var can, but let.
     • Re-declaration:  Var can, but let or const.
+
+== 2. How to make a const object a real const(readonly)
+
+When we define a const object, except we can't assign a new value to the variable, we still can adjust the property of it.  To make it a real readonly constant, we can add `as const`
+[source javascript]
+----
+const COLOR_OPTIONS = [
+  { label: 'Black', value: 'black', tw: 'zinc-900' },
+  {
+    label: 'Blue',
+    value: 'blue',
+    tw: 'blue-950',
+  },
+  { label: 'Rose', value: 'rose', tw: 'rose-950' }
+] as const;
+----
