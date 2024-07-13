@@ -7,7 +7,7 @@
     • Hoisting:  you can use a variable before declaring it.  Var can, but let.
     • Re-declaration:  Var can, but let or const.
 
-== 2. How to make a const object a real const(readonly)
+== 2. How to make a const object a real const(readonly)?
 
 When we define a const object, except we can't assign a new value to the variable, we still can adjust the property of it.  To make it a real readonly constant, we can add `as const`
 [source javascript]
